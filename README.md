@@ -20,7 +20,7 @@ possui todas as outras funcionalidades do sistema
 - NextJs
 - Tailwind CSS
 - Expo
-- Node.js
+- Fastify
 - Prisma
 - SQLite
 
