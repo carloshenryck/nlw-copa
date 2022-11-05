@@ -52,3 +52,15 @@ Agora para iniciar o projeto, rode o comando:
 npm run dev
 ```
 > Atenção: não esqueça de iniciar o servidor antes de iniciar o projeto web
+
+## Mobile
+Para rodar o projeto mobile você precisará baixar o app [Expo Go](https://expo.dev/client).
+Após baixar o app, entre na pasta `mobile` presente no diretório raiz, e rode o comando para instalar as dependências:
+```bash
+npm i
+```
+Agora para iniciar o projeto, rode o comando:
+```bash
+npx expo start 
+```
+> Atenção: não esqueça de iniciar o servidor antes de iniciar o projeto mobile
