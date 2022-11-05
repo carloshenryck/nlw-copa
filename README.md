@@ -8,8 +8,7 @@
 <br>
 
 # Sobre o projeto
-Uma plataforma que permite que usuários criem e participem de bolões. A aplicação web tem o objetivo de apenas criar bolões, enquanto o app mobile 
-possui todas as outras funcionalidades do sistema
+Uma plataforma que permite que usuários criem e participem de bolões para a copa do mundo 2022. A aplicação web tem o objetivo de apenas criar bolões, enquanto o app mobile possui todas as outras funcionalidades do sistema
 
 <img src="./assets/Web.png" alt="drawing" width="800"/>
 
