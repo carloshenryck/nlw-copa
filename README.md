@@ -14,6 +14,7 @@ possui todas as outras funcionalidades do sistema
 <img src="./assets/Web.png" alt="drawing" width="800"/>
 
 # Tecnologias utilizadas
+- Typescript
 - React
 - React Native
 - Native Base
@@ -23,6 +24,8 @@ possui todas as outras funcionalidades do sistema
 - Fastify
 - Prisma
 - SQLite
+
+[![Minhas Habilidades](https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,prisma,sqlite)](https://skillicons.dev)
 
 # Inicialização
 ## Server
