@@ -36,7 +36,11 @@ export function AuthContextProvider({ children }: AuthProviderProps) {
   async function signIn() {
     try {
       setIsUserLoading(true);
+      console.log('vou começar o fluxo');
+      
       await promptAsync();
+
+      console.log('terminei o fluxo');
 
     } catch (error) {
       console.log(error);
@@ -51,8 +55,12 @@ export function AuthContextProvider({ children }: AuthProviderProps) {
     try {
       setIsUserLoading(true);
 
+      console.log('vou atrás do token');
+
       const tokenResponse = await api.post('/users', { access_token })
       api.defaults.headers.common['Authorization'] = `Bearer ${tokenResponse.data.token}`;
+
+      console.log('olha o tokeeen: ', tokenResponse);
 
       const userInfoResponse = await api.get('/me');
       setUser(userInfoResponse.data.user);
